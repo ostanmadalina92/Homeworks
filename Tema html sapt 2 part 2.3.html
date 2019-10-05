@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Formular</title></head>
+    <body>
+    <form>
+        Search for: <br>
+        <input type="text" name="search" placeholder="chocolate cheesecake recipes">
+        <button type="submit" value="Search" >Search</button> <br>
+         Match:
+        <input type="radio" name="match" value="Any word"> Any word
+        <input type="radio" name="match" value="All words" checked> All words 
+        <input type="radio" name="match" value="Exact phrase"> Exact phrase <br>
+        <input type="checkbox" name="match" value="sound-alike matching" checked > Sound-alike matching <br>
+        Dated: 
+        <input type="radio"> <select name="op"> <option value="Within the last year">Within the last year</select><br>
+        <input type="radio" checked> 
+                From: <select name="month"> 
+                      <option value="September"> September 
+                      </option> 
+                      </select>
+                      <select name="day"> 
+                      <option value="8"> 8 
+                      </option> 
+                      </select>
+                    , <input type="text" value="2009">    <br>  
+                To: <select name="month"> 
+                    <option value="October"> October
+                    </option>
+                    </select>
+                    <select name="day">
+                    <option value="18"> 18
+                    </option> 
+                    </select>
+                    , <input type="text" value="2011">  <br>
+                Within: <select name="description">
+                        <option value="description"> Description
+                        </option>
+                        </select>     <br>
+                Show: <select name="number">
+                      <option value="10"> 10
+                      </option> 
+                      </select> results
+                      <select name="with">
+                      <option value="with"> with
+                      </option>
+                      </select> summaries  <br>
+                Sort by: <select name="relevance">
+                         <option value="relevance">relevance
+                         </option>     
+                         </select>
+    </form>
+    </body>
+</html>
