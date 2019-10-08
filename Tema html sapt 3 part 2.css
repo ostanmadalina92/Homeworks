@@ -1,0 +1,22 @@
+.red {
+    color:red;
+}
+.green {
+    color:green;
+}
+#red {
+    color:red;
+}
+.border {
+    border:1px solid black;
+}
+h1 {
+    font-family:'Mansalva', cursive;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+div {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
